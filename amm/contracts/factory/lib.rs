@@ -1,5 +1,5 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
-
+pub use self::factory::FactoryContractRef;
 #[ink::contract]
 pub mod factory {
     // All pairs created via this factory have fixed fee of 0.3%

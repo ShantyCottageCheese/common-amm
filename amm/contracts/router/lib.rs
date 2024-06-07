@@ -1,5 +1,5 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
-
+pub use self::router::RouterContractRef;
 #[derive(Debug, PartialEq, Eq, scale::Encode, scale::Decode)]
 #[cfg_attr(feature = "std", derive(scale_info::TypeInfo))]
 pub struct CallerIsNotOwner;

@@ -1,5 +1,5 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
-
+pub use self::pair::PairContractRef;
 #[ink::contract]
 pub mod pair {
     // 2^112
